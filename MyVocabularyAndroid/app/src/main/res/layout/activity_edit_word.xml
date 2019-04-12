@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bo.alxmcr.app.activities.word.EditWordActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/numberOfConnectionsDB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_color_red"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewTitleEditWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:gravity="center"
+            android:text="@string/title_activity_edit_word"
+            android:textColor="@android:color/black"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewIdWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IdWord:"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editTextIdWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/textViewTextWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text:"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editTextTextWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/textViewStatusWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editTextStatusWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/btnSaveEditWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle_color_turquoise"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/literal_btn_save_word"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCleanUpEditWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle_color_turquoise"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/literal_btn_cleanup_word"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</ScrollView>

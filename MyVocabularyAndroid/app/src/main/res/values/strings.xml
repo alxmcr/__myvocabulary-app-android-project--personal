@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Vocabulary</string>
+
+    <!-- Strings for titles 'activities' -->
+    <string name="title_activity_main">Vocabulary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_create_word">Create Word</string>
+    <string name="title_activity_list_words">List Words</string>
+    <string name="title_activity_word">Word Activity</string>
+    <string name="title_activity_edit_word">Edit Word</string>
+    <string name="title_activity_create_meaning">Create Meaning</string>
+    <string name="title_activity_edit_meaning">Edit Meaning</string>
+    <string name="title_activity_meaning">Meaning</string>
+    <string name="title_activity_search_word">Search Word</string>
+    <string name="title_activity_delete_word">Delete word</string>
+    <string name="title_activity_delete_meaning">Delete meaning</string>
+    <string name="title_activity_matches_words">Matches Words</string>
+    <string name="title_activity_search_meaning">Search meaning</string>
+
+    <!-- actions to menus -->
+    <string name="action_settings">Settings</string>
+    <string name="action_dashboard">Dashboard</string>
+    <string name="action_exit">Exit</string>
+
+    <!-- Strings for type messages -->
+    <string name="type_message_produced_error">Produced an error</string>
+    <string name="type_message_produced_exception">Produced an exception</string>
+
+    <!-- Strings for messages of error -->
+    <string name="msg_error_assets_is_null">Assets is null</string>
+    <string name="msg_error_text_view_is_null">TextView is null</string>
+    <string name="msg_error_button_is_null">Button is null</string>
+    <string name="msg_error_edit_text_is_null">EditText is null</string>
+    <string name="msg_error_json_object_is_null">JSONObject is null</string>
+    <string name="msg_error_string_is_null">String is null</string>
+    <string name="msg_error_context_is_null">Context is null</string>
+    <string name="msg_error_resources_is_null">Resources is null</string>
+    <string name="msg_error_not_connection_to_internet">Not connection to internet</string>
+    <string name="msg_error_result_incorrect">Result is incorrect</string>
+    <string name="msg_error_problems_obtaining_words_from_server">Problems obtaining words from server</string>
+    <string name="msg_error_bundle_is_null">Bundle is null</string>
+    <string name="msg_error_string_is_null_or_empty">String is null or empty</string>
+    <string name="msg_error_json_array_is_null">JsonArray is null</string>
+    <string name="msg_error_list_is_empty">List is empty</string>
+    <string name="msg_error_list_is_null">List is null</string>
+    <string name="msg_error_list_view_is_null">ListView is null</string>
+    <string name="msg_error_parameters_of_input_is_null">Parameters input is null</string>
+    <string name="msg_error_array_is_empty">Array is empty</string>
+    <string name="msg_error_word_not_found">Word not found</string>
+    <string name="msg_error_words_not_found">Words not found</string>
+    <string name="msg_error_word_is_null">Word is null</string>
+    <string name="msg_error_editable_is_null">Editable is null</string>
+    <string name="msg_error_problems_deleting_word">Problems deleting on word</string>
+    <string name="msg_error_response_is_null">Response is null</string>
+    <string name="msg_error_meaning_is_null">Meaning is null</string>
+    <string name="msg_error_meaning_not_found">Meaning not found</string>
+    <string name="msg_error_problems_deleting_meaning">Problems deleting meaning</string>
+
+    <!-- Strings for messages -->
+    <string name="msg_obtaining_words_from_server">Obtaining words from server</string>
+    <string name="msg_obtaining_word_from_server">Obtaining word from server</string>
+    <string name="msg_deleting_meaning">Deleting meaning</string>
+    <string name="msg_updating_data_meaning_to_server">Updating data meaning to server</string>
+    <string name="msg_updating_words_success">Updating word is success</string>
+    <string name="msg_updating_data_word_to_server">Updating data word to server</string>
+    <string name="msg_saving_word">Saving word...</string>
+    <string name="msg_deleting_word">Deleting word</string>
+    <string name="msg_saving_meaning">Saving meaning</string>
+    <string name="msg_creating_word">Creating to word...</string>
+    <string name="msg_searching_word">Searching word...</string>
+    <string name="msg_obtaining_information_meaning">Obtaining information meaning...</string>
+    <string name="msg_obtaining_information_word">Obtaining information word...</string>
+
+    <!-- Strings for buttons -->
+    <string name="literal_btn_signin">Sign in</string>
+    <string name="literal_btn_new_word">New word</string>
+    <string name="literal_btn_list_words">List words</string>
+    <string name="literal_btn_search_word">Search word</string>
+    <string name="literal_subtitle_number_of_words"># Number of words:</string>
+    <string name="literal_subtitle_meanings">Meanings</string>
+    <string name="literal_btn_save_word">Save Word</string>
+    <string name="literal_btn_cleanup_word">CleanUp Word</string>
+    <string name="literal_btn_cancel_save_word">Cancel Word</string>
+    <string name="literal_btn_save_meaning">Save meaning</string>
+    <string name="literal_btn_cleanup_meaning">CleanUp meaning</string>
+    <string name="title_count_connections">Count connections</string>
+    <string name="msg_obtaining_count_connections_from_server">Obtaining count connections from server</string>
+
+</resources>
+
